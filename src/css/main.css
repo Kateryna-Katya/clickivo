@@ -69,3 +69,23 @@
             margin-top: 48px;
         }
 }
+/* Disclaimer */
+.disclaimer-container{
+    padding-left: 26px;
+    padding-right: 26px;
+}
+.disclaimer-text{
+        font-size: 12px;
+        text-transform: uppercase;
+}
+@media only screen and (min-width: 1440px) {
+.disclaimer-container {
+        padding-left: 110px;
+        padding-right: 110px;
+    }
+
+    .disclaimer-text {
+        font-size: 12px;
+        text-transform: uppercase;
+    }
+}
