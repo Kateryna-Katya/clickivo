@@ -124,3 +124,20 @@ margin-top: -40px;
         width: 320px;
     }
 }
+/* GAME EXPERIENCE */
+.game-section{
+    background-image:linear-gradient(180deg, #170127 0%, #421165 100%);
+}
+.game-text{
+    margin-top: 32px;
+    width: 293px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.game-img{
+    margin-left: -70px;
+    margin-top: -40px;
+}
+.game-container{
+    padding-bottom: 0;
+}
