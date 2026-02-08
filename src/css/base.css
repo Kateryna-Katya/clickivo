@@ -53,3 +53,8 @@ h3{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+@media only screen and (min-width: 1440px) {
+  h3{
+    font-size: 48px;
+  }
+}
