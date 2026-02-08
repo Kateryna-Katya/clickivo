@@ -141,3 +141,12 @@ margin-top: -40px;
 .game-container{
     padding-bottom: 0;
 }
+@media only screen and (min-width: 1440px) {
+.game-img {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0;
+width: 826px;
+    height: 463px;
+    }
+}
