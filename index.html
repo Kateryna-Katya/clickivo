@@ -2,55 +2,42 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/clickivo/favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vanilla App Template</title>
+  <link rel="icon" type="image/png" href="/favicon.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Aladin&family=Lexend:wght@100..900&family=Reddit+Sans+Condensed:wght@200..900&display=swap"
+      rel="stylesheet">
+    <title>Unlimited Wishes</title>
     <script type="module" crossorigin src="/clickivo/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/clickivo/assets/styles-X9THPhCB.css">
+    <link rel="stylesheet" crossorigin href="/clickivo/assets/styles-Ii3mpTsM.css">
   </head>
   <body>
-    <header class="header">
-  <div class="container">
-    <nav class="nav">
-      <a class="nav-logo" href="./index.html" aria-label="Site logo">
-        <svg class="nav-logo-icon" width="100" height="30">
-          <use href="{=$icon-path}"></use>
-        </svg>
-      </a>
-      <ul class="nav-list">
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-act}" href="./page-2.html">Page 2</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-curr}" href="./page-3.html">Page 3</a>
-        </li>
-      </ul>
-    </nav>
-  </div>
-</header>
-
+    
 
     <main>
       <!-- Loads the specified .html file -->
-      
+      <section class="home-section" id="home">
+    <div class="container home-container">
+        <h1 class="visually-hidden">Unlimited Wishes</h1>
+        <div class="home-wrapper">
+            <h2 class="home-subtitle">What if wishes never had a limit?</h2>
+            <p class="home-text">Legends say a Genie grants only three wishes. But in Unlimited Wishes, desire has no boundaries.<br/>
+            You'll find yourself in this mystical Eastern setting where the symbols actually shimmer on screen, lamps come to life,
+            and honestly? The magic just keeps happening. Here, wishes don’t end — they multiply.</p>
+            <a class="hero-btn pulse btn" href="#demo">
+                <p>Release the Magic</p>
+            </a>
+        </div>
+    </div>
+</section>
     </main>
 
-    <footer class="footer">
-  <div class="container">
-    <p class="footer-desc">
-      Made with ✨ by
-      <a
-        class="footer-link"
-        href="https://goit.global/ua/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        GoIT team
-      </a>
-    </p>
-  </div>
-</footer>
-
+    
 
   </body>
 </html>
