@@ -31,3 +31,25 @@ body{
       #ebe0ed 0%,
       #ffc328 28.85%);
 }
+h2{
+  font-family: "Reddit Sans Condensed", sans-serif;
+    font-weight: 500;
+    font-size: 10px;
+    color: #fff8e4;
+}
+.title-container{
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding-left: 8px;
+  padding-bottom: 40px;
+}
+h3{
+  font-family: "Aladin", sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    background: linear-gradient(180deg, #fff8e4 0%, #ffc328 55.74%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

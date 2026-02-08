@@ -89,3 +89,19 @@
         text-transform: uppercase;
     }
 }
+/* THE LEGEND */
+.legend-wrapper{
+    margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+width: 273px;
+margin-left: auto;
+margin-right: auto;
+}
+.legend-img{
+    margin-top: -40px;
+}
+.legend-text-two{
+margin-top: -40px;
+}
