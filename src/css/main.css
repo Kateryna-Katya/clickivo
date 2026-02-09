@@ -443,15 +443,13 @@ width: 323px;
             margin-right: auto;
         }
     
-        .iframe-wrapper {
-            position: absolute;
-            top: 4%;
-            left: 46%;
-            transform: translateX(-48%);
-            width: 68%;
-            height: 54%;
-            pointer-events: none;
-        }
+  .iframe-wrapper {
+      top: 4%;
+      left: 46%;
+      transform: translateX(-48%);
+      width: 68%;
+      height: 54%;
+  }
     
         #gameIframe {
             width: 108%;
