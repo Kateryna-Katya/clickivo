@@ -159,3 +159,30 @@ width: 826px;
     height: 463px;
     }
 }
+/* GENIE’S POWER */
+.genie-section{
+    background: linear-gradient(180deg, #421165 0%, #170127 100%);
+}
+.genie{
+    margin-top: -20px;
+}
+.genie-big-text{
+    margin-top: -20px;
+    font-weight: 500;
+        font-size: 20px;
+        margin-bottom: 20px;
+}
+.respin{
+    margin-top: -20px;
+}
+@media only screen and (min-width: 1440px) {
+  .genie-wrapper{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .genie-big-text{
+    font-size: 24px;
+  }
+}
