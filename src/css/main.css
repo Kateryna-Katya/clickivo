@@ -98,6 +98,7 @@
 width: 273px;
 margin-left: auto;
 margin-right: auto;
+gap: 24px;
 }
 .legend-img{
     margin-top: -40px;
@@ -126,7 +127,10 @@ margin-top: -40px;
 }
 /* GAME EXPERIENCE */
 .game-section{
-    background-image:linear-gradient(180deg, #170127 0%, #421165 100%);
+    background-image:url("/img/game/mob.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
 }
 .game-text{
     margin-top: 32px;
@@ -135,17 +139,22 @@ margin-top: -40px;
     margin-right: auto;
 }
 .game-img{
-    margin-left: -70px;
-    margin-top: -40px;
+    margin-top: 40px;
+border: 2px solid #87f7ff;
+    border-radius: 16px;
+    box-shadow: 0 0 64px 10px rgba(135, 247, 255, 0.2);
 }
-.game-container{
-    padding-bottom: 0;
-}
+
 @media only screen and (min-width: 1440px) {
+.game-section{
+    background-image: url("/img/game/desk.png");
+}
+.game-text{
+    width: 100%;
+}
 .game-img {
         margin-left: auto;
         margin-right: auto;
-        margin-top: 0;
 width: 826px;
     height: 463px;
     }
