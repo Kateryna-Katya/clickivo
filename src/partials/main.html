@@ -133,3 +133,72 @@
                 </picture>
     </div>
 </section>
+<section class="why-section" id="why">
+    <div class="container">
+        <div class="title-container">
+            <img src="/img/lamp.png" alt="lamp" loading="lazy">
+            <h2>WHY IT'S DIFFERENT</h2>
+        </div>
+        <h3 class="why-subtitle">The whole thing builds momentum gradually, and honestly it's satisfying to watch unfold.</h3>
+        <div class="why-wrapper">
+        <img class="why-img" src="/img/why/genie.png" alt="genie" loading="lazy">
+        <ul class="why-list">
+            <li class="why-item">
+                <img src="/img/infinity/star.png" alt="star" loading="lazy">
+                <p>Wishes are treated as a flowing process, not a fixed number</p>
+            </li>
+            <li class="why-item">
+                <img src="/img/infinity/star.png" alt="star" loading="lazy">
+                <p>The Genie reacts dynamically to repetition and alignment</p>
+            </li>
+            <li class="why-item">
+                <img src="/img/infinity/star.png" alt="star" loading="lazy">
+                <p>The visuals have this almost ceremonial flow instead of feeling all over the place</p>
+            </li>
+            <li class="why-item">
+                <img src="/img/infinity/star.png" alt="star" loading="lazy">
+                <p>Infinity Magic adds a clear emotional peak</p>
+            </li>
+            <li class="why-item">
+                <img src="/img/infinity/star.png" alt="star" loading="lazy">
+                <p>The theme focuses on abundance, not restriction</p>
+            </li>
+        </ul></div>
+    </div>
+</section>
+<section class="demo-section" id="demo">
+    <div class="container demo-container">
+        <div class="title-container">
+            <img src="/img/lamp.png" alt="lamp" loading="lazy">
+            <h2>PLAY</h2>
+        </div>
+
+        <h3>Release the Magic</h3>
+        <div class="demo-wrapper" id="game">
+            <picture>
+                <source srcset="
+                /img/demo/demo-desk.png 1x,
+                /img/demo/demo-desk@2x.png 2x
+                " media="(min-width: 1440px)" />
+                <source srcset="
+                /img/demo/demo-mob.png 1x,
+                /img/demo/demo-mob@2x.png 2x
+                " media="(max-width: 1439px)" />
+                <img class="demo-img" src="/img/demo/demo-mob.png" alt="Heads & Tails" loading="lazy" />
+            </picture>
+
+
+            <div class="iframe-wrapper">
+                <iframe id="gameIframe" name="gameIframe"></iframe>
+
+                <button id="closeIframeBtn" class="hidden-close-btn" aria-label="Close">
+                    <img class="close-img" src="/img/demo/close.png" alt="Close">
+                </button>
+            </div>
+        </div>
+        <a class="demo-btn btn" href="#"
+            data-game-url="https://demo.evoplay.games/demo/fullstate/html5/evoplay/unlimitedwishes" target="gameIframe">
+            <p>Play</p>
+        </a>
+    </div>
+</section>
