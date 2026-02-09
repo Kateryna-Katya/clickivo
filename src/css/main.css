@@ -372,7 +372,7 @@ width: 323px;
     transform: translateX(-48%);
     width: 68%;
     height: 54%;
-    z-index: 20;
+        z-index: 5;
 
     /* 🔥 ГОЛОВНЕ ВИПРАВЛЕННЯ */
     pointer-events: none;
@@ -390,6 +390,7 @@ width: 323px;
 /* АКТИВНИЙ СТАН */
 .iframe-wrapper.active {
     pointer-events: auto;
+    z-index: 20;
 }
 
 #gameIframe.active {
@@ -449,9 +450,6 @@ width: 323px;
             transform: translateX(-48%);
             width: 68%;
             height: 54%;
-            z-index: 20;
-    
-            /* 🔥 ГОЛОВНЕ ВИПРАВЛЕННЯ */
             pointer-events: none;
         }
     
@@ -463,6 +461,11 @@ width: 323px;
             background: #000;
             border-radius: 30px;
         }
+
+        
+
+        
+
 }
 /* Final */
 .final-wrapper{
